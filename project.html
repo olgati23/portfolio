@@ -10,10 +10,11 @@
 
   <body>
 <!--navbar-->
-    <nav class="navbar">
-      <a href="index.html"><img id="logo" src="../images/logo.svg" alt="logo">
-      </a>
-      <ul class="nav">
+    <nav class="nav">
+      <a href="index.html"><img id="logo" class="logo" src="../images/logo.svg" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
         <li>
           <a href="about.html" class="nav-links">About</a>
         </li>
@@ -22,48 +23,45 @@
         </li>
         <li>
           <address class="email">
-            <a href="mailto:tichonova.olga93@gmail.com">Contact</a>
+            <a href="mailto:tichonova.olga93@gmail.com" class="nav-links">Contact</a>
           </address>
         </li>
       </ul>
     </nav>
 
-    <main class="link-cs">
+  <main>
+    <div class="link-cs">
 <!--Summary-->
       <section class="summary">
-        <a href="project.html"><img id="final-desktop" src="../images/desktop.png" alt="final-desktop"></a>
-        <a href="project.html"><img id="final-mobile" src="../images/mobile.png" alt="final-mobile"></a>
-        <div class="summary text">
-          <h1>LINK</h1>
-            <p>Even if the cloud storage and orgnaization market is a decade old the use of online tools is increasing with the rise of remote work and online collaboration. Link wants to create a customizable, welcoming and intuitive interface that the users want to use. It serves as a linking force between people and helps organize files from other online apps.</p>
-            <p><b>Role: </b>UX Designer</p>
-            <p><b>Duration: </b>4 Weeks</p>
-          <a href="https://invis.io/9MWASYW45NF" class="button-prototype">View Prototype</a>
+        <div class="final-images2">
+          <img id="desktop2" src="../images/desktop2.png" class="desktop2" alt="final-desktop">
+          <img id="mobile2" src="../images/mobile2.png" class="mobile2" alt="final-mobile">
         </div>
+        <div class="summary-text">
+          <h1><b>LINK</b></h1>
+            <p>Even if the cloud storage and orgnaization market is a decade old the use of online tools is increasing with the rise of remote work and online collaboration. Link wants to create a customizable, welcoming and intuitive interface that the users want to use. It serves as a linking force between people and helps organize files from other online apps.</p>
+        </div>
+        <div class="role-duration">
+          <div class="role">
+            <p class="bold">Role:</p><p> UX Designer</p>
+          </div>
+          <div class="duration">
+            <p class="bold">Duration:</p><p> 4 Weeks</p>
+          </div>
+        </div>
+        <div class="btn">
+        <a href="https://invis.io/9MWASYW45NF" class="button-prototype">View Prototype</a>
+      </div>
       </section>
 
       <section class="deliver-summary">
-        <div class="design roles">
+        <div class="design-roles">
           <h2>Design Roles</h2>
           <ul>
             <li>Research</li>
             <li>Information Architecture</li>
             <li>Branding</li>
             <li>Visual Design</li>
-          </ul>
-        </div>
-        <div class="deliverables">
-          <h2>Deliverables</h2>
-          <ul>
-            <li><a href="#user-research" class="user-research">User Research</a></li>
-            <li><a href="#competitive-analysis" class="competitive-analysis">Competitive Analysis</a></li>
-            <li><a href="#user-personas" class="user-personas">User Personas</a></li>
-            <li><a href="#user-stories" class="user-stories">User Stories & Flows</a></li>
-            <li><a href="#wireframes" class="wireframes">Wireframes</a></li>
-            <li><a href="#branding" class="branding">Moodboard & Style Guide</a></li>
-            <li><a href="#prototyping" class="prototyping">Mockups & Prototyping</a></li>
-            <li><a href="#preference-testing" class="preference-testing">Preference Testing</a></li>
-            <li><a href="#usability-testing" class="usability-testing">Usability Testing</a></li>
           </ul>
         </div>
         <div class="tools">
@@ -76,6 +74,20 @@
             <li>Adobe Photoshop</li>
             <li>InVision</li>
             <li>Usability Hub</li>
+          </ul>
+        </div>
+        <div class="deliverables">
+          <h2>Deliverables</h2>
+          <ul>
+            <li><a href="#user-research-l" class="user-research-l">User Research</a></li>
+            <li><a href="#competitive-analysis" class="competitive-analysis">Competitive Analysis</a></li>
+            <li><a href="#user-personas" class="user-personas-l">User Personas</a></li>
+            <li><a href="#user-stories" class="user-stories">User Stories & Flows</a></li>
+            <li><a href="#wireframes-l" class="wireframes">Wireframes</a></li>
+            <li><a href="#branding-l" class="branding">Moodboard & Style Guide</a></li>
+            <li><a href="#prototyping-l" class="prototyping">Mockups & Prototyping</a></li>
+            <li><a href="#preference-testing" class="preference-testing">Preference Testing</a></li>
+            <li><a href="#usability-testing" class="usability-testing">Usability Testing</a></li>
           </ul>
         </div>
       </section>
@@ -99,24 +111,23 @@
       </section>
 
 <!--User Research-->
-      <section class="user-research" id="user-research">
+      <section class="user-research-l" id="user-research">
         <h2>User Research</h2>
           <p>The online user survey was created on Google Forms and disseminated throughout online chats and groups.</p>
-          <p><b>Aim: </b>To collect general user information and test assumptions about cloud storage and organization apps.</p>
+          <p>Aim: To collect general user information and test assumptions about cloud storage and organization apps.</p>
           <p>The survey included questions about ways users : collect information,  store information and collaborate online.</p>
-        <a href="project.html"><img id="survey" src="../images/survey.png" alt="survey"></a>
+        <img id="survey" src="../images/survey.png" alt="survey">
           <ul class="research-stats">
             <li>88% of participants under 34 years old and 100% under 44 years old.</li>
             <li>Broad spectrum of occupations with 30% being students.</li>
             <li>47% of the participants had a hard time keeping track of items in existing applications.</li>
           </ul>
-        <a href="project.html"><img id="graph" src="../images/graph.png" alt="bar-graph"></a>
+        <img id="graph" src="../images/graph.png" alt="bar-graph">
           <p>The needs are features that users wish to see in upcoming online tools, while the frustrations are derived from things they lack in current apps they use.</p>
         <div class="table-needs-frust">
-          <table>
+          <table class="needs">
             <tr>
               <th>Needs</th>
-              <th>Frustrations</th>
             </tr>
             <tr>
               <td>
@@ -131,6 +142,13 @@
                   <li>Access on multiple devices</li>
                 </ul>
               </td>
+            </tr>
+          </table>
+          <table class="frustrations">
+            <tr>
+              <th>Frustrations</th>
+            </tr>
+            <tr>
               <td>
                 <ul>
                   <li>Lack of visual design tools</li>
@@ -140,23 +158,27 @@
                   <li>High frequency of ads</li>
                   <li>Apps being hacked</li>
                   <li>Paying for extra features</li>
-                  <li>No settings for multiple accounts</li>
-                  <li>No integration of notes/visuals</li>
+                  <li>No settings for 2+ accounts</li>
+                  <li>No integration of notes</li>
                 </ul>
               </td>
             </tr>
           </table>
         </div>
+        <div class="btn">
         <a href="https://docs.google.com/document/d/1qI_hPkHcr1GFfJN_wDyl3jBc-trkaWKEnEHHVjePo68/edit?usp=sharing" class="surveyquestions">View Survey Questions</a>
+        </div>
       </section>
 
 <!--Competetive Analysis-->
       <section class="competitive-analysis" id="competitive-analysis">
         <h2>Competitive Analysis</h2>
           <p>The competitive analysis compared giants from the market like Slack, Google Drive and Evernote.</p>
-        <a href="project.html"><img id="slack" src="../images/slack.png" alt="slack-logo"></a>
-        <a href="project.html"><img id="googledrive" src="../images/googledrive.png" alt="googledrive-logo"></a>
-        <a href="project.html"><img id="evernote" src="../images/evernote.png" alt="evernote-logo"></a>
+        <div class="competitive-logos">
+          <img id="slack" src="../images/slack.png" width="200" alt="slack-logo">
+          <img id="googledrive" src="../images/googledrive.png" width="200" alt="googledrive-logo">
+          <img id="evernote" src="../images/evernote.png" width="200" alt="evernote-logo">
+        </div>
           <p>I researched their history, target audience, and differentiators and when I examined their weaknesses I noticed an overlap with the participants' frustrations from the user survey.</p>
         <ul>
           <li>Google Drive didn’t support many formats.</li>
@@ -164,92 +186,118 @@
           <li>Slack and Google Drive had limited history and file search options.</li>
         </ul>
           <p>Hence, I used this information to ensure that my product was better than its competitors in these areas.</p>
-        <a href="https://docs.google.com/document/d/1a7AWnDxGMfd10M7OLoSlbGtJpEcOoADFiMyobemgdNE/edit?usp=sharing" class="competitiveanalysis">View Competitive Analysis</a>
+        <div class="btn">
+          <a href="https://docs.google.com/document/d/1a7AWnDxGMfd10M7OLoSlbGtJpEcOoADFiMyobemgdNE/edit?usp=sharing" class="competitiveanalysis">View Competitive Analysis</a>
+        </div>
       </section>
 
-<!--Competetive Analysis-->
+<!--User Personas-->
       <section class="user-personas" id="user-personas">
-        <h2>User Personas</h2>
-          <p>After data analysis 3 user personas were created to represent the user’s needs, frustrations and background. They were a great aid whenever I needed to reset my expectations and redirect my work.</p>
+        <div class="up-text">
+          <h2>User Personas</h2>
+          <div class="text-p">After data analysis 3 user personas were created to represent the user’s needs, frustrations and background. They were a great aid whenever I needed to reset my expectations and redirect my work.</div>
+        </div>
         <div class="kirsten-davis">
-          <a href="project.html"><img id="kirsten-persona" src="../images/kirsten.png" alt="kirsten-persona"></a>
-          <h2>Kirsten Davis</h2>
+          <div class="kirsten-img">
+            <img id="kirsten-persona" src="../images/kirsten.svg" class="user-p" alt="kirsten-persona">
+          </div>
+          <h3>Kirsten Davis</h3>
           <h4>Avid reader & writer</h4>
-          <h4>27 years old | Vet sturdent | Corvallis, OR</h4>
+          <h4>27 yrs old | Vet student | Corvallis, OR</h4>
           <h3>Motivations</h3>
-            <p>Kirsten like to use Pinterest to collect links and Google Drive to store and share her graphic design work. The ability to access the platform on any device, and work on her files saves her so much time. It allows her to stay more organized when working. And she can also keep all her univeristy documents in one place.</p>
-          <h3>Needs</h3>
-          <ul>
-            <li>Organize files by date</li>
-            <li>Collaborate with others easily</li>
-            <li>Access files on all devices</li>
-          </ul>
+            <p>Kirsten likes to use Pinterest to collect links and Google Drive to store and share her graphic design work. The ability to access the platform on any device, and work on her files saves her so much time. It allows her to stay more organized when working. And she can also keep all her univeristy documents in one place.</p>
+          <div class="needs-p">
+            <h3>Needs</h3>
+            <ul>
+              <li>Organize files by date</li>
+              <li>Collaborate with others easily</li>
+              <li>Access files on all devices</li>
+            </ul>
+          </div>
           <h3>Frustrations</h3>
-          <ul>
-            <li>Paying for extra features</li>
-            <li>Settings for many accounts</li>
-            <li>No visual & text integration</li>
-          </ul>
+          <div class="frust-p">
+            <ul>
+              <li>Paying for extra features</li>
+              <li>Settings for many accounts</li>
+              <li>No visual & text integration</li>
+            </ul>
+          </div>
         </div>
 
         <div class="julius-wright">
-          <a href="project.html"><img id="julius-persona" src="../images/julius.png" alt="julius-persona"></a>
-          <h2>Julius Wright</h2>
+          <div class="julius-img">
+            <img id="julius-persona" src="../images/julius.svg" class="user-p" alt="julius-persona">
+          </div>
+          <h3>Julius Wright</h3>
           <h4>Outdoor climber</h4>
-          <h4>23 years old | Researcher | Sao Paulo, Brazil</h4>
+          <h4>23 yrs old | Researcher | Brasilia, Brazil</h4>
           <h3>Motivations</h3>
-            <p>Julius stays updated on various subjects through Medium, he really likes saving articles and re-reading them later. At work he collaborates online very often and uses Google Docs with his team to write up lengthy lab reports.  Additionally, he uses everything from Slack to Evernote to Google Drive for various personal and buisness projects. He wishes that the various platforms were connected between each other to help him stay ontop of his work.</p>
-          <h3>Needs</h3>
-          <ul>
-            <li>Easy file sharing</li>
-            <li>Support of different file formats</li>
-            <li>Relevant & helpful tutorials</li>
-          </ul>
-          <h3>Frustrations</h3>
-          <ul>
-            <li>Lack of visual design tools</li>
-            <li>Can’t search chat history</li>
-            <li>Difficult user interface</li>
-          </ul>
+            <p>Julius stays updated through Medium, where he saves articles and re-reads them later. At work he collaborates online through Google Docs to write up reports. For his personal projects he uses Dropbox and Evernote. He wishes that the platforms were connected so that he could stay ontop of his work.</p>
+          <div class="needs-p">
+            <h3>Needs</h3>
+            <ul>
+              <li>Easy file sharing</li>
+              <li>Many supported file formats</li>
+              <li>Relevant & helpful tutorials</li>
+            </ul>
+          </div>
+          <div class="frust-p">
+            <h3>Frustrations</h3>
+            <ul>
+              <li>Lack of visual design tools</li>
+              <li>Can’t search chat history</li>
+              <li>Difficult user interface</li>
+            </ul>
+          </div>
         </div>
 
         <div class="susan-stone">
-          <a href="project.html"><img id="susan-persona" src="../images/susan.png" alt="susan-persona"></a>
-          <h2>Susan Stone</h2>
+          <div class="susan-img">
+            <img id="susan-persona" src="../images/susan.svg" class="user-p" alt="susan-persona">
+          </div>
+          <h3>Susan Stone</h3>
           <h4>Systems thinker & problem solver</h4>
-          <h4>36 years old | Teacher | Riga, Latvia</h4>
+          <h4>36 yrs old | Teacher | Riga, Latvia</h4>
           <h3>Motivations</h3>
-            <p>Susan worries about the lack of safety measures for online files.  She uses Zoom when she teaches remotely and really likes the platform. She has a strong habit of writing things down by hand and organizing infromation by color and shape. The online apps don’t give her much creative freedom, and that’s why she doesn’t use them. Some younger co-workers use online collaboration apps but most teachers don’t, so she doesn’t know much about them.</p>
-          <h3>Needs</h3>
-          <ul>
-            <li>Send files to students easily</li>
-            <li>Share her screen with students</li>
-            <li>Learn new teaching techniques</li>
-          </ul>
-          <h3>Frustrations</h3>
-          <ul>
-            <li>Addictive nature of applications</li>
-            <li>Constant adversiment</li>
-            <li>News about files being hacked</li>
-          </ul>
+            <p>Susan worries about the lack of safety for online files.  She uses Zoom when she teaches remotely and really likes the platform. She has a strong habit of writing things down by hand and color coding the information. The online apps don’t give her much creative freedom, and that’s why she doesn’t use them.</p>
+          <div class="needs-p">
+            <h3>Needs</h3>
+            <ul>
+              <li>Send files easily</li>
+              <li>Share her screen</li>
+              <li>Online teaching techniques</li>
+            </ul>
+          </div>
+          <div class="frust-p">
+            <h3>Frustrations</h3>
+            <ul>
+              <li>Addicting and flashy apps</li>
+              <li>Constant adversiment</li>
+              <li>News about files being hacked</li>
+            </ul>
+          </div>
         </div>
-        <a href="https://drive.google.com/file/d/1qgRcMPPIggRExQ73bNIfEYeEetiUWqbs/view?usp=sharing" class="userpersonas">View User Personas</a>
+        <div class="btn-p">
+          <a href="https://drive.google.com/file/d/1qgRcMPPIggRExQ73bNIfEYeEetiUWqbs/view?usp=sharing" class="userpersonas">View User Personas</a>
+        </div>
       </section>
 
 <!--Usert Stories-->
       <section class="user-stories" id="user-stories">
         <h2>User Stories</h2>
           <p>The user stories consist of 43 tasks that were derived from the collected data and divided by importance: high, medium or low. They describe the things the user would want to do in this app.</p>
-        <a href="project.html"><img id="user-stories-img" src="../images/user-stories.png" alt="user-stories"></a>
+        <img id="user-stories-img" src="../images/user-stories.png" alt="user-stories">
           <p>This step helped break down the product’s features and defined the scope of work for future phases of the project.</p>
-        <a href="https://drive.google.com/file/d/1pNXEypwf-0CQT74qS3J0NjMiNSXP5U4l/view?usp=sharing" class="userstories">View All User Stories</a>
+        <div class="btn">
+          <a href="https://drive.google.com/file/d/1pNXEypwf-0CQT74qS3J0NjMiNSXP5U4l/view?usp=sharing" class="userstories">View All User Stories</a>
+        </div>
       </section>
 
 <!--Usert Flows-->
       <section class="user-flows">
         <h2>User Flows</h2>
           <p>The user flows were made for all high priority user stories and a couple of medium and low ones. They were reiterated to assure that the pathways were intuitive and successful.</p>
-        <a href="project.html"><img id="user-flows" src="../images/user-flow.png" alt="user-flows"></a>
+        <img id="user-flows" src="../images/user-flow.png" alt="user-flows">
         <table>
           <tr>
             <th colspan = 2>17 User Flows that Include...</th>
@@ -274,116 +322,151 @@
                 <li>Moving items</li>
               </ul>
             </td>
-          </tr>
         </table>
-        <a href="https://drive.google.com/file/d/1yd3jNUOniSL6RNf9l4pJRmzAX_oKmynO/view?usp=sharing" class="userflows">View All User Flows</a>
+        <div class="btn">
+          <a href="https://drive.google.com/file/d/1yd3jNUOniSL6RNf9l4pJRmzAX_oKmynO/view?usp=sharing" class="userflows-btn">View All User Flows</a>
+        </div>
+        <div class="userflows-p">
           <p>When the tasks pathways were unknown to me, I studied other websites observing their processes carefully to adjust my own.</p>
           <p>After the user flows, I devised the content strategy. First, a sitemap was drawn out based on the user flows, which displayed all of the apps pages and features.</p>
-        <a href="project.html"><img id="site-map" src="../images/site-map.png" alt="site-map"></a>
+        </div>
+          <img id="site-map" src="../images/site-map.png" alt="site-map">
           <p>The site map served as a  guide for the wireframes in the next section.</p>
       </section>
 
 <!--Wireframes-->
-      <section class="wireframes" id="wireframes">
+      <section class="wireframes-l" id="wireframes">
         <h2>Wireframes</h2>
           <p>Initially, I sketched variations of screens on paper, to test and determine where to best position content such as, buttons, bars and images.</p>
         <div class="wireframe-sketches">
-          <a href="project.html"><img id="sketches1" src="../images/sketches1.png" alt="sketches1"></a>
-          <a href="project.html"><img id="sketches2" src="../images/sketches2.png" alt="sketches2"></a>
-          <a href="project.html"><img id="sketches3" src="../images/sketches3.png" alt="sketches3"></a>
-          <a href="project.html"><img id="sketches4" src="../images/sketches4.png" alt="sketches4"></a>
-          <a href="project.html"><img id="sketches5" src="../images/sketches5.png" alt="sketches5"></a>
-          <a href="project.html"><img id="sketches6" src="../images/sketches6.png" alt="sketches6"></a>
+          <div class="img1">
+            <img id="sketches1" src="../images/sketches1.png" alt="sketches1">
+          </div>
+          <div class="img2">
+            <img id="sketches2" src="../images/sketches2.png" alt="sketches2">
+          </div>
+          <div class="img3">
+            <img id="sketches3" src="../images/sketches3.png" alt="sketches3">
+          </div>
+          <div class="img4">
+            <img id="sketches4" src="../images/sketches4.png" alt="sketches4">
+          </div>
+          <div class="img5">
+            <img id="sketches5" src="../images/sketches5.png" alt="sketches5">
+          </div>
+          <div class="img6">
+            <img id="sketches6" src="../images/sketches6.png" alt="sketches6">
+          </div>
         </div>
           <p>Once the screens were complete, I digitilized the sketches in Figma.</p>
-        <div class="wirframe-digital">
-          <a href="project.html"><img id="wireframe1" src="../images/wireframe1.png" alt="wireframe1"></a>
-          <a href="project.html"><img id="wireframe2" src="../images/wireframe2.png" alt="wireframe2"></a>
-          <a href="project.html"><img id="wireframe3" src="../images/wireframe3.png" alt="wireframe3"></a>
-          <a href="project.html"><img id="wireframe4" src="../images/wireframe4.png" alt="wireframe4"></a>
-          <a href="project.html"><img id="wireframe5" src="../images/wireframe5.png" alt="wireframe5"></a>
-          <a href="project.html"><img id="wireframe6" src="../images/wireframe6.png" alt="wireframe6"></a>
+        <div class="wireframe-digital">
+          <div class=figma1>
+            <img id="wireframe1" src="../images/wireframe1.png" class="figma" alt="wireframe1">
+          </div>
+          <div class=figma2>
+            <img id="wireframe2" src="../images/wireframe2.png" class="figma" alt="wireframe2">
+          </div>
+          <div class=figma3>
+            <img id="wireframe3" src="../images/wireframe3.png" class="figma" alt="wireframe3">
+          </div>
+          <div class=figma4>
+            <img id="wireframe4" src="../images/wireframe4.png" class="figma" alt="wireframe4">
+          </div>
+          <div class=figma5>
+            <img id="wireframe5" src="../images/wireframe5.png" class="figma" alt="wireframe5">
+          </div>
+          <div class=figma6>
+            <img id="wireframe6" src="../images/wireframe6.png" class="figma" alt="wireframe6">
+          </div>
         </div>
           <p>Some of the challenges at this stage inlcuded deciding where to place the visual components, features, icons and text. To solve this, I studied many apps and seeked professional advice from my mentor. After a couple of iterations, the screens started to come together.</p>
           <p>Next, I recognized that the base font was too large and all the sections were inflated. I proceeded to resize the elements and decrease the whitespace between them.</p>
-        <a href="https://www.figma.com/file/JNezFazfbID0etxudxIvg7/Link-Wireframes?node-id=0%3A1" class="wireframes">View All Wireframes</a>
+        <div class="btn">
+          <a href="https://www.figma.com/file/JNezFazfbID0etxudxIvg7/Link-Wireframes?node-id=0%3A1" class="btn-wireframes">View All Wireframes</a>
+        </div>
       </section>
 
-<!--Usert Stories-->
-      <section class="branding" id="branding">
+<!--Branding-->
+      <section class="branding-l" id="branding">
         <h2>Branding</h2>
           <p>First, I brainstormed and made lists and quick sketches of imagery and emotions that related to the apps function and mood. I decided to call the product Link because it connects people and supports collaboration, serving as a linking force.</p>
           <p>Following market research, variations of Link’s logos were created by sketching and later digital iterations in Illustrator.</p>
-        <div class="logo">
-          <a href="project.html"><img id="logo-brainstorming" src="../images/logo-brainstorming.png" alt="logo-brainstorming"></a>
-          <a href="project.html"><img id="logo-sketching" src="../images/logo-sketching.png" alt="logo-sketching"></a>
-          <a href="project.html"><img id="variations1" src="../images/variations1.png" alt="variations1"></a>
-          <a href="project.html"><img id="variations2" src="../images/variations2.png" alt="variations2"></a>
+        <div class="logo-l">
+          <img id="logo-brainstorming" src="../images/logo-brainstorming.png" class="l1" alt="logo-brainstorming">
+          <img id="logo-sketching" src="../images/logo-sketching.png" class="l2" alt="logo-sketching">
+          <img id="variations1" src="../images/variations1.png" class="l3" alt="variations1">
+          <img id="variations2" src="../images/variations2.png" class="l4" alt="variations2">
         </div>
           <p>A geometric and simple logo was chosen. The first letter ‘L’,  has paths crossing through it representing an intersection and connection, which is what the product aims to do for its users.</p>
-        <a href="project.html"><img id="link-logo" src="../images/link-logo.png" alt="link-logo"></a>
+        <img id="link-logo" src="../images/link-logo.png" alt="link-logo">
           <p>After the logo, the typography was chosen and a moodboard presentation template created in Sketch, where I used gender-neutral colors and welcoming and organic imagery.</p>
           <p>The complementary hues of orange and blue were intended to be  welcoming and motivating. The moodboard set the tone for the style guide and all visual elements.</p>
-        <a href="project.html"><img id="moodboard" src="../images/moodboard.png" alt="moodboard"></a>
+        <img id="moodboard" src="../images/moodboard.png" alt="moodboard">
           <p>Initially the brand typeface was Libre Franklin and the complementary typeface was a simple non-serif Galvji. After some consideration I increased the contrast and readability between the typefaces by changing the brand typeface to a serif, called Merriweather.</p>
         <div class="type">
-          <a href="project.html"><img id="type1" src="../images/type1.png" alt="type1"></a>
-          <a href="project.html"><img id="type2" src="../images/type2.png" alt="type2"></a>
+          <img id="type1" src="../images/type1.png" alt="type1">
+          <img id="type2" src="../images/type2.png" alt="type2">
         </div>
           <p>The style guide included logo variations, colors, typography, the grid system, icons and inputs.</p>
         <div class="style-guide">
-          <a href="project.html"><img id="style-guide1" src="../images/style-guide1.png" alt="style-guide1"></a>
-          <a href="project.html"><img id="style-guide2" src="../images/style-guide2.png" alt="style-guide2"></a>
-          <a href="project.html"><img id="style-guide3" src="../images/style-guide3.png" alt="style-guide3"></a>
-          <a href="project.html"><img id="style-guide4" src="../images/style-guide4.png" alt="style-guide4"></a>
+          <img id="style-guide1" src="../images/style-guide1.png" alt="style-guide1">
+          <img id="style-guide2" src="../images/style-guide2.png" alt="style-guide2">
+          <img id="style-guide3" src="../images/style-guide3.png" alt="style-guide3">
+          <img id="style-guide4" src="../images/style-guide4.png" alt="style-guide4">
         </div>
       </section>
 
 <!--Prototyping-->
-      <section class="prototyping" id="prototyping">
+      <section class="prototyping-l" id="prototyping">
         <h2>Prototyping</h2>
           <p>To make prototyping possible I first created high fidelity mock-ups in Figma, where I added color, images and icons to the wireframes.</p>
           <p>The mockups were reiterated multiple times where I adjusted the relative sizes of the elements and their design. Additionally, I added a variety of visual cues and overlays to enhance the clarity and contrast between the components, thereby improving the UI.</p>
-        <a href="https://invis.io/9MWASYW45NF" class="button-prototype">View Prototype</a>
-        <div class="homepage-mockups">
-          <a href="project.html"><img id="homepage-mock1" src="../images/homepage-mock1.png" alt="homepage-mock1"></a>
-          <a href="project.html"><img id="homepage-mock2" src="../images/homepage-mock2.png" alt="homepage-mock2"></a>
-          <a href="project.html"><img id="homepage-mock3" src="../images/homepage-mock3.png" alt="homepage-mock3"></a>
+        <div class="btn">
+          <a href="https://invis.io/9MWASYW45NF" class="button-prototype">View Prototype</a>
         </div>
-        <div class="support-mockups">
-          <a href="project.html"><img id="support-mock1" src="../images/support-mock1.png" alt="support-mock1"></a>
-          <a href="project.html"><img id="support-mock2" src="../images/support-mock2.png" alt="support-mock2"></a>
-          <a href="project.html"><img id="support-mock3" src="../images/support-mock3.png" alt="support-mock3"></a>
+        <div class="mockups-img">
+          <div class="homepage-mockups">
+            <img id="homepage-mock1" src="../images/homepage-mock1.png" class="figma7" alt="homepage-mock1">
+            <img id="homepage-mock2" src="../images/homepage-mock2.png" class="figma7" alt="homepage-mock2">
+            <img id="homepage-mock3" src="../images/homepage-mock3.png" class="figma7" alt="homepage-mock3">
+          </div>
+          <div class="support-mockups">
+            <img id="support-mock1" src="../images/support-mock1.png" class="figma7" alt="support-mock1">
+            <img id="support-mock2" src="../images/support-mock2.png" class="figma7" alt="support-mock2">
+            <img id="support-mock3" src="../images/support-mock3.png" class="figma7" alt="support-mock3">
+          </div>
+          <div class="share-mockups">
+            <img id="share-mock1" src="../images/share-mock1.png" class="figma7" alt="share-mock1">
+            <img id="share-mock2" src="../images/share-mock2.png" class="figma7" alt="share-mock2">
+            <img id="share-mock3" src="../images/share-mock3.png" class="figma7" alt="share-mock3">
+          </div>
         </div>
-        <div class="share-mockups">
-          <a href="project.html"><img id="share-mock1" src="../images/share-mock1.png" alt="share-mock1"></a>
-          <a href="project.html"><img id="share-mock2" src="../images/share-mock2.png" alt="share-mock2"></a>
-          <a href="project.html"><img id="share-mock3" src="../images/share-mock3.png" alt="share-mock3"></a>
+        <div class="btn">
+          <a href="https://www.figma.com/file/rgzWBMFAokLfUF2Pfb38dW/Link-Layered-Design-File?node-id=1%3A39963" class="mockups-btn2">View Mockups</a>
         </div>
-        <a href="https://www.figma.com/file/rgzWBMFAokLfUF2Pfb38dW/Link-Layered-Design-File?node-id=1%3A39963" class="mockups">View Mockups</a>
-          <p>Next, I uploaded the high fidelity mock ups to InVision and connected the screens  so that they would be ready for usability testing.</p>
+          <p class="pref-p">Next, I uploaded the high fidelity mock ups to InVision and connected the screens  so that they would be ready for usability testing.</p>
         <div class="preference-testing" id="preference-testing">
           <h3>Preference Testing</h3>
             <p>The tests were done online using Usability Hub, where people voted for their preferred design solution.</p>
             <p>For the first one participants chose between chat window designs. Option B scored 67% making it the most popular option.</p>
           <div class="chat-test">
-            <a href="project.html"><img id="chat1" src="../images/chat1.png" alt="chat1"></a>
-            <a href="project.html"><img id="chat2" src="../images/chat2.png" alt="chat2"></a>
-            <a href="project.html"><img id="chat3" src="../images/chat3.png" alt="chat3"></a>
+            <img id="chat1" src="../images/chat1.png" class="pref" alt="chat1">
+            <img id="chat2" src="../images/chat2.png" class="pref" alt="chat2">
+            <img id="chat3" src="../images/chat3.png" class="pref" alt="chat3">
           </div>
             <p>Here, icon designs were tested for the dropdown menu. Options A & C both scored 50%. I chose option A because the icons were easier to see on the white background.</p>
           <div class="dropdown-test">
-            <a href="project.html"><img id="dropdown1" src="../images/dropdown1.png" alt="dropdown1"></a>
-            <a href="project.html"><img id="dropdown2" src="../images/dropdown2.png" alt="dropdown2"></a>
-            <a href="project.html"><img id="dropdown3" src="../images/dropdown3.png" alt="dropdown3"></a>
-              <p>I further simplified the design  and made the style more consistent across the icons.</p>
-            <a href="project.html"><img id="dropdown4" src="../images/dropdown4.png" alt="dropdown4"></a>
+            <img id="dropdown1" src="../images/dropdown1.png" class="pref" alt="dropdown1">
+            <img id="dropdown2" src="../images/dropdown2.png" class="pref" alt="dropdown2">
+            <img id="dropdown3" src="../images/dropdown3.png" class="pref" alt="dropdown3">
+            <div class="text-d"><p>I further simplified the design  and made the style more consistent across the icons.</p></div>
+            <img id="dropdown4" src="../images/dropdown4.png" class="pref" alt="dropdown4">
           </div>
             <p>Lastly, visual cues were chosen, which helped the user identify the page or section they were on. Option A scored 50% and was the popular choice.</p>
           <div class="cues-test">
-            <a href="project.html"><img id="cue1" src="../images/cue1.png" alt="cue1"></a>
-            <a href="project.html"><img id="cue2" src="../images/cue2.png" alt="cue2"></a>
-            <a href="project.html"><img id="cue3" src="../images/cue3.png" alt="cue3"></a>
+            <img id="cue1" src="../images/cue1.png" class="pref" alt="cue1">
+            <img id="cue2" src="../images/cue2.png" class="pref" alt="cue2">
+            <img id="cue3" src="../images/cue3.png" class="pref" alt="cue3">
           </div>
         </div>
       </section>
@@ -393,64 +476,73 @@
         <h2>Usability Testing</h2>
           <p>Two rounds of online and offline usability tests were run, where users commented on the app and completed all 14 tasks outlined in the user flows.</p>
           <p>The participants had a clear understanding of the website but also pointed out necessary improvement. Their input led me to move the ‘New+’ button higher so it  would be found quicker.</p>
-        <a href="project.html"><img id="new-button" src="../images/new-button.png" alt="new-button"></a>
+        <img id="new-button" src="../images/new-button.png" alt="new-button">
           <p>With their feedback I also regroup the features located on the dashboard navigation bar and let the ‘share’ feature only appear when an item was selected.</p>
         <div class="dashboard-features">
-          <a href="project.html"><img id="dash1" src="../images/dash1.png" alt="dash1"></a>
-          <a href="project.html"><img id="dash2" src="../images/dash2.png" alt="dash2"></a>
-          <a href="project.html"><img id="dash3" src="../images/dash3.png" alt="dash3"></a>
-          <a href="project.html"><img id="dash4" src="../images/dash4.png" alt="dash4"></a>
+          <img id="dash1" src="../images/dash1.png" class="dash" alt="dash1">
+          <img id="dash2" src="../images/dash2.png" class="dash" alt="dash2">
+          <img id="dash3" src="../images/dash3.png" class="dash" alt="dash3">
+          <img id="dash4" src="../images/dash4.png" class="dash" alt="dash4">
         </div>
          <p>I changed the dashboard icon into the logo so that the user could find their way to the dashboard quicker.</p>
         <div class="document-icon">
-          <a href="project.html"><img id="icon1" src="../images/icon1.png" alt="icon1"></a>
-          <a href="project.html"><img id="icon2" src="../images/icon2.png" alt="icon2"></a>
+          <img id="icon-img1" src="../images/icon1.png" alt="icon1">
+          <img id="icon-img2" src="../images/icon2.png" alt="icon2">
        </div>
 
       </section>
 
 <!--Conclusion-->
       <section class="conclusion">
-        <div class="lessons">
-          <h2>Learned lessons...</h2>
-          <ul>
-            <li>To pay attention to the relative size of the components and elements during the beginning stages of the project, especially the base font.</li>
-            <li>To pay attention to detail, page folds, color, overlays and to make sure that various features are consistent across screens.</li>
-            <li>To reference the user personas and moodboard. The user personas are a great way to direct and prioritize relevant content, while the moodboard was utilized to inform the images and design elements.</li>
-            <li>The difference between organizing content on a website vs a dashboard, visual cues, color usage and to reference outside sources frequently to help with decisions.</li>
-            <li>The importance of user testing and how it revealed overlooked sections and features, which helped design a more intuitive interface.</li>
-          </ul>
+        <article class="learned-time">
+          <div class="lessons">
+            <h2>Learned lessons...</h2>
+            <ul>
+              <li>To pay attention to the relative size of the components and elements during the beginning stages of the project, especially the base font.</li>
+              <li>To pay attention to detail, page folds, color, overlays and to make sure that various features are consistent across screens.</li>
+              <li>To reference the user personas and moodboard. The user personas are a great way to direct and prioritize relevant content, while the moodboard was utilized to inform the images and design elements.</li>
+              <li>The difference between organizing content on a website vs a dashboard, visual cues, color usage and to reference outside sources frequently to help with decisions.</li>
+              <li>The importance of user testing and how it revealed overlooked sections and features, which helped design a more intuitive interface.</li>
+            </ul>
+          </div>
+          <div class="more-time">
+            <h2>With more time...</h2>
+            <ul>
+              <li> Another user survey would have allowed to gather more information from the participants and narrow down the existing data for more effective solutions.</li>
+              <li>Doing more preference tests when deciding on the dashboard features, logo and pop-up screen design.</li>
+              <li>Conducting another round of usability tests at the beginning stages, when the wireframes were created.</li>
+            </ul>
+          </div>
+        </article>
+        <div class="btn">
+          <a href="../index.html" class="view-other">View Other Work</a>
         </div>
-        <div class="more-time">
-          <h2>With more time...</h2>
-          <ul>
-            <li> Another user survey would have allowed to gather more information from the participants and narrow down the existing data for more effective solutions.</li>
-            <li>Doing more preference tests when deciding on the dashboard features, logo and pop-up screen design.</li>
-            <li>Conducting another round of usability tests at the beginning stages, when the wireframes were created.</li>
-          </ul>
-        </div>
-      <a href="../index.html" class="work">View Other Work</a>
       </section>
-    </main>
+    </div>
+  </main>
 
 <!--Footer-->
-    <section class="footer">
-      <h2 class="thanks">Thanks for stopping by :) Get in touch to start working together!</h2>
+    <footer id="footer">
+      <div class="thanks">
+      <img id="marble5" src="../images/marble5.svg" alt="marble5">
+        <p>Thanks for stopping by :)</p>
+        <p>Get in touch to start working together!</p>
+      </div>
       <address class="contact">
         <ul>
-          <li class="github">
-            <a href="https://github.com/olgati23"></a>
-          </li>
           <li class="email">
-            <a href="mailto:tichonova.olga93@gmail.com"></a>
+            <a href="mailto:tichonova.olga93@gmail.com"><img id="email" class="icon-f" src="../images/email.svg" alt="email"></a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/olgati23"><img id="github" class="icon-f" src="../images/github.svg" alt="github"></a>
           </li>
           <li class="linkedin">
-            <a href="https://linkedin.com/in/olgatichonova"></a>
+            <a href="https://linkedin.com/in/olgatichonova"><img id="linkedin" class="icon-f" src="../images/linkedin.svg" alt="linkedin"></a>
           </li>
         </ul>
       </address>
       <p class="copyright">© 2020 All Rights Reserved</p>
-    </section>
+    </footer>
 
   </body>
 </html>

@@ -6,131 +6,165 @@
     <title>Olga T | UX & Product Design</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
 <!--navbar-->
-    <nav class="navbar">
-      <a href="index.html"><img id="logo" src="../images/logo.svg" alt="logo">
-      </a>
-      <ul class="nav">
+    <nav class="nav">
+      <a href="index.html"><img id="logo" class="logo" src="../images/logo.svg" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
         <li>
-          <a href="about.html" class="nav-links">About</a>
+          <a href="about.html" id="about" class="nav-links">About</a>
         </li>
         <li>
           <a href="index.html#work" class="nav-links">Work</a>
         </li>
         <li>
           <address class="email">
-            <a href="mailto:tichonova.olga93@gmail.com">Contact</a>
+            <a href="mailto:tichonova.olga93@gmail.com" class="nav-links">Contact</a>
           </address>
         </li>
       </ul>
     </nav>
 
 <!--Header-->
-    <header>
-      <h1> Hello there. My name is Olga</h1>
-      <p class = "intro">I am a product designer currenlty based in Sao Paulo, creating thoughtful, humane and impactful solutions for individuals, organizations and communities.</p>
-        <a href="#work" class="button-hero">View Work</a>
-        <a href="index.html"><img id="marble1" src="images/marble1.png" alt="marble1"></a>
-        <a href="index.html"><img id="marble2" src="images/marble2.png" alt="marble2"></a>
+    <header class="welcome">
+      <div class="title">
+        <h1> Hello there.</h1>
+        <h1>My name is Olga.</h1>
+      </div>
+      <div class = "intro">
+        <p>I am a product designer based in Sao Paulo, creating thoughtful, humane and impactful solutions for individuals, organizations and communities.</p>
+      </div>
+      <div  class="button-marbles">
+        <a href="#work" class="view-work">View Work</a>
+        <img id="marble1" src="images/marble1.svg" alt="marble1">
+        <img id="marble2" src="images/marble2.svg" alt="marble2">
+      </div>
     </header>
 
     <main class="homepage">
 <!--Work-->
-      <section class="work" id="work">
-        <article class="project-link">
+      <div class="work" id="work">
+        <img id="downarrow" src="images/downarrow.svg" alt="downarrow">
+        <section class="final-images">
+          <a href="project.html"><img id="final-desktop" class="desktop" src="images/desktop.png" alt="final-desktop"></a>
+          <img id="final-mobile" class="mobile" src="images/mobile.png" alt="final-mobile">
+        </section>
+        <section class="project-link">
           <h2>Link</h2>
             <p>Link is a customizable mobile and desktop app that lets you create content, get organized and collaborate online.</p>
-          <a href="project.html"><p>View Case Study</p></a>
-          <a href="index.html"><img id="final-desktop" src="images/desktop.png" alt="final-desktop"></a>
-          <a href="index.html"><img id="final-mobile" src="images/mobile.png" alt="final-mobile"></a>
-        </article>
-        <a href="index.html"><img id="marble3" src="images/marble3.png" alt="marble3"></a>
-      </section>
+          <div class="btn-marble3">
+            <a href="project.html" class="view-cs1">View Case Study</a>
+            <img id="marble3" src="images/marble3.svg" alt="marble3">
+          </div>
+        </section>
+      </div>
 
 <!--Design Process-->
-      <section class="process">
-        <h2>My process for creating human-centric and functional solutions includes...</h2>
-        <div class="research">
-          <a href="index.html"><img id="research-icon" src="images/research-icon.svg" alt="research-icon"></a>
-          <h3>Research</h3>
-            <p>Information is collected, problems are researched, and user needs & frustrations are analyzed with the help of market research, user surveys & competetive analysis.</p>
-        </div>
-        <div class="content">
-          <a href="index.html"><img id="content-icon" src="images/content-icon.svg" alt="content-icon"></a>
-          <h3>Content Creation</h3>
-            <p>Analysed data gets translated into tasks, ideas and features as the user stories, user flows, site maps, and content strategy are produced and put together.</p>
-        </div>
-        <div class="wireframes">
-          <a href="index.html"><img id="wireframes-icon" src="images/wireframes-icon.svg" alt="wireframes-icon"></a>
-          <h3>Wireframes</h3>
-            <p>During this phase the information created gets assembled on a page, first through sketches and then a digital form.</p>
-        </div>
-        <div class="branding">
-          <a href="index.html"><img id="branding-icon" src="images/branding-icon.svg" alt="branding-icon"></a>
-          <h3>Branding</h3>
-          <p>Now, the product gets its visual identity. Logos are created, moodboards & style guides are refereced and preference tests are run.</p>
-        </div>
-        <div class="prototyping">
-          <a href="index.html"><img id="prototyping-icon" src="images/prototyping-icon.svg" alt="prototyping-icon"></a>
-          <h3>Prototyping & Usability Testing</h3>
-            <p>The screens are connected together and usability testing starts to ensure that the product is intuitive, comprehensive and effective for the user.</p>
-        </div>
-        <div class="front-end">
-          <a href="index.html"><img id="frontend-icon" src="images/frontend-icon.svg" alt="frontend-icon"></a>
-          <h3>Front End</h3>
-          <p>The visual design get translated responsive design through HTML, CSS and JavaScript and gets pushed to GitHub.</p>
-        </div>
-        <div class="design-tools">
-          <h4>Design Tools</h4>
-          <ul>
-            <li>Sketch</li>
-            <li>Figma</li>
-            <li>InVision</li>
-            <li>Illustrator</li>
-            <li>Photoshop</li>
-          </ul>
-        </div>
-        <div class="fe-tools">
-          <h4>Front End</h4>
-          <ul>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>Github</li>
-          </ul>
-        </div>
-      </section>
+      <div class="process">
+          <section class="title-h">
+            <h2>My process for creating human-centric and functional solutions includes...</h2>
+          </section>
 
-<!--Testimonial-->
-      <section class="testimonials">
-        <a href="index.html"><img id="marble4" src="images/marble4.png" alt="marble4"></a>
-        <h3>What people say...</h3>
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.”</p>
-      </section>
+          <section class="research-h">
+            <img id="research-icon" class="icons-h" src="images/research-icon.svg" alt="research-icon">
+            <h3>Research</h3>
+              <p>Information is collected, problems are researched, and user needs & frustrations are analyzed with the help of market research, user surveys & competetive analysis.</p>
+          </section>
+
+          <section class="content-h">
+            <img id="content-icon" class="icons-h" src="images/content-icon.svg" alt="content-icon">
+            <h3>Content Creation</h3>
+              <p>Analysed data gets translated into tasks, ideas and features as the user stories, user flows, site maps, and content strategy are produced and put together.</p>
+          </section>
+
+          <section class="wireframes-h">
+            <img id="wireframes-icon" class="icons-h" src="images/wireframes-icon.svg" alt="wireframes-icon">
+            <h3>Wireframes</h3>
+              <p>During this phase the information created gets assembled on a page, first through sketches and then a digital form.</p>
+          </section>
+
+          <section class="branding-h">
+            <img id="branding-icon" class="icons-h" src="images/branding-icon.svg" alt="branding-icon">
+            <h3>Branding</h3>
+            <p>Now, the product gets its visual identity. Logos are created, moodboards & style guides are refereced and preference tests are run.</p>
+          </section>
+
+          <section class="prototyping-h">
+            <img id="prototyping-icon" class="icons-h" src="images/prototyping-icon.svg" alt="prototyping-icon">
+            <h3>Prototyping & User Testing</h3>
+              <p>The screens are connected together and usability testing starts to ensure that the product is intuitive, comprehensive and effective for the user.</p>
+          </section>
+
+          <section class="front-end-h">
+            <img id="frontend-icon" class="icons-h" src="images/frontend-icon.svg" alt="frontend-icon">
+            <h3>Front End</h3>
+            <p>The visual design get translated responsive design through HTML, CSS and JavaScript and gets pushed to GitHub.</p>
+          </section>
+
+          <section class="design-tools-h">
+            <h4>Design Tools</h4>
+            <ul>
+              <li>Sketch</li>
+              <li>Figma</li>
+              <li>InVision</li>
+              <li>Illustrator</li>
+              <li>Photoshop</li>
+            </ul>
+          </section>
+
+          <section class="fe-tools-h">
+            <h4>Front End</h4>
+            <ul>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>Github</li>
+            </ul>
+          </section>
+
+      </div>
     </main>
 
+<!--Testimonial-->
+
+      <section class="testimonials">
+        <div class="test-text">
+          <img id="marble4" src="images/marble4.svg" alt="marble4">
+          <h3>What people say...</h3>
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.”</p>
+        </div>
+      </section>
+
+
+
     <!--Footer-->
-    <section class="footer">
-      <h2 class="thanks">Thanks for stopping by :) Get in touch to start working together!</h2>
+    <footer id="footer">
+      <div class="thanks">
+      <img id="marble5" src="../images/marble5.svg" alt="marble5">
+        <p>Thanks for stopping by :)</p>
+        <p>Get in touch to start working together!</p>
+      </div>
       <address class="contact">
         <ul>
-          <li class="github">
-            <a href="https://github.com/olgati23"></a>
-          </li>
           <li class="email">
-            <a href="mailto:tichonova.olga93@gmail.com"></a>
+            <a href="mailto:tichonova.olga93@gmail.com"><img id="email" class="icon-f" src="../images/email.svg" alt="email"></a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/olgati23"><img id="github" class="icon-f" src="../images/github.svg" alt="github"></a>
           </li>
           <li class="linkedin">
-            <a href="https://linkedin.com/in/olgatichonova"></a>
+            <a href="https://linkedin.com/in/olgatichonova"><img id="linkedin" class="icon-f" src="../images/linkedin.svg" alt="linkedin"></a>
           </li>
         </ul>
       </address>
       <p class="copyright">© 2020 All Rights Reserved</p>
-    </section>
+    </footer>
 
   </body>
 </html>
