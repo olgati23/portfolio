@@ -23,10 +23,9 @@ h2, h3, h4, h5 {
   font-weight: bold;
 }
 
-/*menu Bar*/
+/*Menu Bar*/
 
 .nav {
-  /*box-shadow: .5px .5px 2px 0 rgba(0,0,0,.1);*/
   background-color: #F6F8F5;
   border-bottom: solid .5px  #eeeeee;
   font-family: 'Lato', sans-serif;
@@ -61,7 +60,7 @@ h2, h3, h4, h5 {
   text-decoration: none;
 }
 
-.nav li a:hover {
+.nav a:hover {
   color: #5A8B23;
 }
 
@@ -69,6 +68,8 @@ h2, h3, h4, h5 {
   clear: both;
   max-height: 0;
 }
+
+/*Hamburger Bar */
 
 .nav .menu-icon {
   cursor: pointer;
@@ -132,6 +133,8 @@ h2, h3, h4, h5 {
 .nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+
+/*Media query for all larger than mobile size*/
 
 @media (min-width: 48em) {
   .nav ul {
@@ -297,6 +300,8 @@ h2, h3, h4, h5 {
   z-index: 2;
 }
 
+/*Homepage Process Section*/
+
 .title-h {
   grid-area: title;
 }
@@ -333,7 +338,6 @@ h2, h3, h4, h5 {
   grid-area: fe-tools;
 }
 
-/*Homepage Process Section*/
 .process {
   padding: 5rem 4%;
   display:grid;
@@ -381,10 +385,6 @@ h2, h3, h4, h5 {
 
 .icons-h {
   width: 2.3rem;
-}
-
-.design-tools-h, .fe-tools-h {
-  border: .1rem solid #CDE4A9;
 }
 
 .design-tools-h{
@@ -440,6 +440,8 @@ h2, h3, h4, h5 {
   z-index: 2;
 }
 
+/*Media Query for Tablet for Homepage */
+
 @media screen and (min-width: 768px) {
   .welcome {
   margin: 0 15%;
@@ -477,6 +479,8 @@ h2, h3, h4, h5 {
     width:2.3rem;
   }
 
+  /*Section with Projects*/
+
   .project-link {
     float:left;
     margin: 10% 0 10% 5%;
@@ -502,6 +506,8 @@ h2, h3, h4, h5 {
     line-height: 1.7rem;
     text-align: center;
   }
+
+/*Section with the Design Process*/
 
   .process h3 {
     margin-top: 2.3rem;
@@ -544,6 +550,8 @@ h2, h3, h4, h5 {
     width: 9rem;
   }
 
+/*Testimonials*/
+
   .test-text {
     margin: 0 25%;
   }
@@ -560,12 +568,15 @@ h2, h3, h4, h5 {
     width: 13rem;
   }
 
+/*Footer*/
+
   .thanks p {
     font-size: 1.56rem;
     line-height: 2.3rem;
   }
-
 }
+
+/*For Desktop for Homepage*/
 
 @media screen and (min-width: 1025px) {
 
@@ -578,6 +589,8 @@ h2, h3, h4, h5 {
     line-height: 2.3rem;
     width: 65%;
   }
+
+/*Section with Projects*/
 
   .project-link {
     float:left;
@@ -616,6 +629,8 @@ h2, h3, h4, h5 {
     font-size: 1.25rem;
     line-height: 1.9rem;
   }
+
+/*Testimpnials*/
 
   .testimonials h3 {
     font-size: 1.95rem;
@@ -701,8 +716,10 @@ h2, h3, h4, h5 {
   padding-bottom: .6rem;
 }
 
+/* For tablet for About page*/
+
 @media screen and (min-width: 768px) {
-  /* For tablet: */
+
 
   .link-cs p, .link-cs li  {
     font-size: 1.25rem;
@@ -751,8 +768,9 @@ h2, h3, h4, h5 {
   }
 }
 
+/* For Desktop for About page*/
+
 @media screen and (min-width: 1025px) {
-  /* For desktop: */
 
   .about h2 {
     font-size: 1.95rem;
@@ -846,6 +864,7 @@ h2, h3, h4, h5 {
   padding: 1rem 1.7rem;
   text-decoration: none;
 }
+
 
 .summary {
   grid-area: summary;
@@ -942,7 +961,7 @@ h2, h3, h4, h5 {
   color: #5A8B23;
 }
 
-/*Link Case Study-Design Process begin*/
+/*Link Case Study-Design Process begins*/
 
 /*Link Case Study-challenges & solutions*/
 .challenges-solution {
@@ -992,6 +1011,8 @@ h2, h3, h4, h5 {
 #graph {
   padding: 0 4.3%;
 }
+
+/*Table*/
 
 .table-needs-frust {
   margin-bottom: 2.3rem;
@@ -1115,7 +1136,6 @@ th {
 }
 
 
-
 /*Link Case Study-user stories*/
 
 .user-stories {
@@ -1210,6 +1230,8 @@ th {
   margin-top: 6.8rem;
 }
 
+/*Logo*/
+
 .logo-l {
   background-color: white;
   margin: 1.7rem 0;
@@ -1232,16 +1254,22 @@ th {
   padding: 0 35%;
 }
 
+/* Moodboard*/
+
 #moodboard {
   background-color: #CDE4A9;
   margin: 1.7rem 0;
   padding: 0 12.8%;
 }
 
+/*Typography*/
+
 .type {
   margin: 1.7rem 0;
   padding: 0 12.8%;
 }
+
+/*Style Guide*/
 
 .style-guide {
   background-color: #CDE4A9;
@@ -1339,6 +1367,8 @@ th {
   margin-bottom: 2.3rem;
 }
 
+/*For Tablet for Link Case Study*/
+
 @media screen and (min-width: 768px) {
 
   .link-cs h1 {
@@ -1430,6 +1460,8 @@ th {
     margin: 0 0 0 10%;
   }
 
+  /*Challenges & Solutions*/
+
   .deliver-summary {
     padding-bottom: 8rem;
   }
@@ -1469,6 +1501,8 @@ th {
     margin-bottom: .6rem;
   }
 
+  /*User Research*/
+
   #survey {
     padding: 0 28%;
   }
@@ -1503,6 +1537,8 @@ th {
     grid-area: frustrations;
   }
 
+  /*Competitive Analysis*/
+
   .competitive-analysis {
     margin: 0 0 6.8rem 0;
   }
@@ -1520,6 +1556,8 @@ th {
     margin: .6rem 0 .6rem 2rem;
     width: 25%;
   }
+
+  /*User Personas*/
 
   .user-personas h2 {
     margin-left: 12%;
@@ -1596,6 +1634,7 @@ th {
     margin: 0 5% 0 0;
   }
 
+  /*User Stories & User Flows*/
   #user-stories-img,  #user-flows, #site-map {
     padding: 0 17%;
   }
@@ -1609,7 +1648,7 @@ th {
     margin: .3rem 0 .3rem 1.1rem ;
     padding: 0;
   }
-
+  /*Wireframes*/
   .wireframe-sketches {
     grid-gap: .6rem .6rem;
     grid-row: auto;
@@ -1660,6 +1699,7 @@ th {
     padding: 0 .6rem;
   }
 
+  /*Logo*/
   .l1 {
     grid-area: l1;
   }
@@ -1707,18 +1747,20 @@ th {
     margin: 0 5%;
     width:90%;
   }
-
+  /*Moodboard*/
   #moodboard {
     margin: 1.1rem 25%;
     padding: 0;
     width: 50%;
   }
 
+  /*Typography*/
   #type1, #type2 {
     margin: 0 15%;
     width:60%;
   }
 
+  /*Wireframes*/
   #homepage-mock1 {
     grid-area:home1;
   }
@@ -1772,6 +1814,7 @@ th {
     padding: 0;
   }
 
+  /*Preference Testing*/
   .pref {
     padding: 0;
   }
@@ -1884,6 +1927,7 @@ th {
 
 }
 
+/*For Desktop for Link Case Study*/
 @media screen and (min-width: 1025px) {
 
   .link-cs h1 {
@@ -1939,6 +1983,7 @@ th {
     line-height: 1.5rem;
   }
 
+/*Challenges & Solutions*/
   .challenges {
     margin: 0 3% 0 20%;
   }
@@ -1960,6 +2005,7 @@ th {
     margin-right: 11%;
   }
 
+/*Survey*/
   #survey {
    padding: 0 33%;
   }
@@ -1976,6 +2022,7 @@ th {
     margin: .3rem 1.1rem 0 1.1rem;
   }
 
+/*Competitive Analysis*/
   .competitive-analysis {
     margin: 0 0 6.8rem 0;
   }
@@ -1988,6 +2035,7 @@ th {
     width: 20%;
   }
 
+/*User Personas*/
   .user-personas {
     column-gap: 2%;
     display: grid;
@@ -2011,7 +2059,8 @@ th {
     margin: 0 7%;
   }
 
-#user-stories-img,  #user-flows, #site-map {
+/*User Stories & User Flows*/
+  #user-stories-img,  #user-flows, #site-map {
     padding: 0 23%;
   }
 
@@ -2025,6 +2074,7 @@ th {
     padding: 0;
   }
 
+/*Wireframes*/
   .wireframe-digital {
     grid-template-areas:
     "figma1 figma2 figma3"
@@ -2032,6 +2082,7 @@ th {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+/*Branding*/
   .logo-l {
     grid-column-gap: 1%;
     grid-template-areas:
@@ -2094,6 +2145,7 @@ th {
     grid-area: type2;
   }
 
+/*Style Guide*/
   .style-guide1 {
     grid-area: style1;
   }
@@ -2121,6 +2173,7 @@ th {
     padding: 2.8rem 4.4%;
   }
 
+/*Preference Testing*/
   .preference-testing h3 {
     margin-left: 29%;
   }
@@ -2158,6 +2211,7 @@ th {
   position:relative;
 }
 
+/*Contact Information Icons & Links*/
 .contact {
   margin-bottom: 4rem;
 }
