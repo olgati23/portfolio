@@ -12,22 +12,24 @@ body {
   color: #333333;
 }
 
-h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
-
-p, li {
+p, li{
   font-family: 'Lato', sans-serif;
   font-size: 1rem; /* this also gets multiplied by font size, in this case 10, so it will be 16*/
   line-height: 1.4rem;
-  max-width: 39rem;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 section {
   max-width: 1440px;
 }
 
+main p, main li {
+  max-width: 39rem;
+}
 
 /*Menu Bar*/
 
@@ -546,10 +548,6 @@ section {
     margin-right:57%;
   }
 
-  .testimonials {
-    margin-bottom: 20%;
-  }
-
   #marble4 {
     left:-25%;
     top:-100%;
@@ -557,6 +555,10 @@ section {
   }
 
 /*Testimonials*/
+
+  .testimonials {
+    margin-bottom: 20%;
+  }
 
   .test-text {
     margin: 0 25%;
@@ -577,8 +579,8 @@ section {
 /*Footer*/
 
   .thanks p {
-    font-size: 1.56rem;
-    line-height: 2.3rem;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -2208,22 +2210,11 @@ th {
   width:100%;
 }
 
-#footer p {
-  text-align: center;
-}
-
 .thanks {
-  font-size: 1.25rem;
+  margin: 0 2.3rem 1.7rem 2.3rem;
   font-weight: bold;
-  padding-bottom: 1.7rem;
-  position:relative;
   z-index:1;
-  text-align: center;
-}
-
-.thanks p {
-  font-size: 1.25rem;
-  line-height: 1.8rem;
+  position:relative;
 }
 
 /*Contact Information Icons & Links*/
