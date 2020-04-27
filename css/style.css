@@ -12,22 +12,28 @@ body {
   color: #333333;
 }
 
-p, li{
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem; /* this also gets multiplied by font size, in this case 10, so it will be 16*/
-  line-height: 1.4rem;
-}
-
 h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
+p, li {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem; /* this also gets multiplied by font size, in this case 10, so it will be 16*/
+  line-height: 1.4rem;
+  max-width: 39rem;
+}
+
+section {
+  max-width: 1440px;
+}
+
+
 /*Menu Bar*/
 
 .nav {
   background-color: #F6F8F5;
-  border-bottom: solid .5px  #eeeeee;
+  border-bottom: solid .04rem  #eeeeee;
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
   height:4.5rem;
@@ -136,7 +142,7 @@ h2, h3, h4, h5 {
 
 /*Media query for all larger than mobile size*/
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .nav ul {
     margin-right: 4%;
   }
@@ -664,7 +670,7 @@ h2, h3, h4, h5 {
 }
 
 #self {
-  height:272px;
+  height:19.4rem;
   object-fit: cover;
   width:60%;
 }
@@ -1019,7 +1025,7 @@ h2, h3, h4, h5 {
 }
 
 .table-needs-frust table, th, td {
-  border: 1px solid #333333;
+  border: .07rem solid #333333;
   margin: 0 5.1rem;
 }
 
@@ -2202,12 +2208,22 @@ th {
   width:100%;
 }
 
+#footer p {
+  text-align: center;
+}
+
 .thanks {
-  margin: 0 2.3rem 1.7rem 2.3rem;
   font-size: 1.25rem;
   font-weight: bold;
-  z-index:1;
+  padding-bottom: 1.7rem;
   position:relative;
+  z-index:1;
+  text-align: center;
+}
+
+.thanks p {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
 }
 
 /*Contact Information Icons & Links*/
