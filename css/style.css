@@ -18,7 +18,7 @@ p, li{
   line-height: 1.4rem;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, label {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
@@ -729,9 +729,14 @@ main p, main li {
 @media screen and (min-width: 768px) {
 
 
-  .link-cs p, .link-cs li  {
+  .about p {
     font-size: 1.25rem;
     line-height: 1.8rem;
+  }
+
+  .about h2 {
+    font-size: 1.56rem;
+    line-height: 2rem;
   }
 
   .about {
@@ -768,7 +773,7 @@ main p, main li {
     padding-bottom: .6rem;
   }
 
-  #footer{
+  footer{
     clear:both;
     height:26%;
     margin-top:-20%;
@@ -782,7 +787,7 @@ main p, main li {
 
   .about h2 {
     font-size: 1.95rem;
-    line-height: 2.5rem;
+    line-height: 2.9rem;
   }
 
   #marble6 {
@@ -859,12 +864,12 @@ main p, main li {
   grid-template-rows:auto;
 }
 
-.btn, .btn-p{
+.btn, .btn-p, .contact-btn {
   margin-top: 3.3rem;
   text-align: center;
 }
 
-.btn a:link, .btn a:visited, .btn-p a:link, .btn-p a:visited {
+.btn a:link, .btn a:visited, .btn-p a:link, .btn-p a:visited, .contact-btn{
   background-color: #5A8B23;
   border-radius: 0.36rem;
   color: white;
@@ -2200,9 +2205,109 @@ th {
   }
 }
 
+/* Form */
+
+.contact-title {
+  padding-top: 8.3rem;
+}
+
+.form h1 {
+  color: #5A8B23;
+  font-size: 1.25rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.form {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40%;
+  margin: 0;
+}
+
+form, .contact-2 {
+  margin: 0 20% 0 20%;
+}
+
+.form input, .form textarea {
+  border-style: none;
+  font-family: "Heebo", sans-serif;
+  padding: .6rem 0 .6rem .6rem;
+  margin: 1rem 0 2rem 0;
+  width:100%;
+}
+
+.form textarea {
+  padding-bottom: 4rem;
+}
+
+.form label, .contact-btn {
+  display: block;
+}
+
+.contact-btn {
+  border-style: none;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.contact-pg {
+  margin:0;
+  padding:2.3rem 0;
+}
+
+.contact-2 li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+.contact-pg #github, .contact-pg #linkedin  {
+  width:1.7rem;
+}
+
+.copyright-2 {
+  text-align: center;
+  margin-top: 5.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .form {
+    font-size: 1.25rem;
+  }
+
+  .form h1 {
+    font-size: 1.56rem;
+  }
+
+  .form input, .form textarea {
+    font-size: 1.25rem;
+  }
+
+  .form textarea {
+    padding-bottom: 6rem;
+  }
+
+  .contact-pg #github, .contact-pg #linkedin  {
+    width:2.3rem;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  form, .contact-2 {
+    margin: 0 30% 0 30%;
+  }
+
+  .form h1 {
+    font-size: 1.95rem;
+  }
+
+}
 
 /*Footer*/
-#footer {
+footer {
   background-color: #CDE4A9;
   box-shadow: .4rem .4rem 1rem #DEDEDE;
   padding: 4rem 8.5% 2.9rem 8.5%;
@@ -2224,8 +2329,11 @@ th {
 
 .contact li {
   display: inline;
-  padding-right: 2.3rem;
   vertical-align: baseline;
+}
+
+.email, .github {
+  padding-right: 2.3rem;
 }
 
 .contact a {

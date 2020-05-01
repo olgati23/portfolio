@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olga T | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+  </head>
+
+  <body>
+<!--navbar-->
+    <nav class="nav">
+
+      <a href="index.html"><img id="logo" class="logo" src="images/logo.svg" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li>
+          <a href="about.html" id="about" class="nav-links">About</a>
+        </li>
+        <li>
+          <a href="index.html#work" class="nav-links">Work</a>
+        </li>
+        <li>
+          <address class="email">
+            <a href="contact.html" class="nav-links">Contact</a>
+          </address>
+        </li>
+      </ul>
+    </nav>
+
+<!--Form-->
+    <main class="form">
+      <div class="contact-title">
+        <h1>Like my work? Get in touch.</h1>
+      </div>
+
+      <form action="https://formspree.io/xaypwgzo" method="POST">
+        <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Tom Smith">
+        <label for="name">E-mail:</label>
+          <input type="text" name="email" placeholder="smith@gmail.com">
+        <label for="name">Message:</label>
+          <textarea name="message" placeholder="Hi Olga ..." id="styled"></textarea>
+
+<!-- your other form fields go here -->
+        <button class="contact-btn" type="submit">Send</button>
+
+      </form>
+    </main>
+
+<!--Footer-->
+    <section class="contact-pg">
+      <address class="contact-2">
+        <ul>
+          <li class="github">
+            <a href="https://github.com/olgati23" target="_blank"><img id="github" class="icon-f" src="images/github.svg" alt="github"></a>
+          </li>
+          <li class="linkedin">
+            <a href="https://linkedin.com/in/olgatichonova" target="_blank"><img id="linkedin" class="icon-f" src="images/linkedin.svg" alt="linkedin"></a>
+          </li>
+        </ul>
+      </address>
+      <p class="copyright-2">© 2020 All Rights Reserved</p>
+    </section>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164656205-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164656205-1');
+    </script>
+  </body>
+</html>
