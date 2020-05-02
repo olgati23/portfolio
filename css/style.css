@@ -2248,6 +2248,7 @@ form, .contact-2 {
 
 .contact-btn {
   border-style: none;
+  cursor: pointer;
   font-size: 1.25rem;
   margin: 0;
 }
