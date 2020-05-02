@@ -2238,11 +2238,15 @@ form, .contact-2 {
   width:100%;
 }
 
+.form input, .form textarea {
+  font-size: 1rem;
+}
+
 .form textarea {
   padding-bottom: 4rem;
 }
 
-.form label, .contact-btn {
+.form label {
   display: block;
 }
 
