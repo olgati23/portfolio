@@ -44,7 +44,7 @@ main p, main li {
   z-index:3;
 }
 
-#logo {
+.logo {
   display: block;
   float:left;
   height:2.4rem;
@@ -2267,10 +2267,6 @@ form, .contact-2 {
   padding-right: 1rem;
 }
 
-.contact-pg #github, .contact-pg #linkedin  {
-  width:1.7rem;
-}
-
 .copyright-2 {
   text-align: center;
   margin-top: 5.5rem;
@@ -2294,9 +2290,6 @@ form, .contact-2 {
     padding-bottom: 6rem;
   }
 
-  .contact-pg #github, .contact-pg #linkedin  {
-    width:2.3rem;
-  }
 }
 
 
