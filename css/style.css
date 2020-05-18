@@ -254,14 +254,14 @@ ol {
   z-index: 2;
 }
 
-.final-images, .re-images {
+.final-images {
   margin: 3.4rem 8.5% 2.3rem 8.5%;
   position:relative;
   z-index:1;
 }
 
 .re-images {
-  margin:2.3rem 8.5%;
+  margin:4% 8.5% 4% 8.5%;
   position:relative;
   z-index:1;
 }
@@ -520,7 +520,7 @@ ol {
 
   .re-images {
     float:right;
-    margin: 2rem 7% 0 0;
+    margin: 3% 5%;
     width: 40%;
   }
 
@@ -2656,9 +2656,9 @@ th {
   " mind3 mind4 ";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  margin:1rem 12% 2.3rem 12%;
+  margin:1rem 20% 3rem 20%;
   padding: 0;
-  width: 75%;
+  width: 60%;
 }
 
 .mindmockups2 {
@@ -2669,9 +2669,9 @@ th {
   " mmind3 mmind4 ";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  margin:1rem 12% 2.3rem 12%;
+  margin:1rem 10% 2.3rem 10%;
   padding: 0;
-  width: 75%;
+  width: 80%;
 }
 
 @media (min-width: 768px) {
@@ -2685,11 +2685,12 @@ th {
   }
 
   .mindmockups2 {
+    grid-gap: 5% 2%;
     grid-template-areas:
     " mmind1 mmind2 mmind3 mmind4 ";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 2.3rem 19% 2.3rem 19%;
-    width:60%;
+    margin: 2.3rem 6% 2.3rem 6%;
+    width:88%;
   }
 }
 
@@ -2697,7 +2698,9 @@ th {
 /*re • mind Prototyping & Usability */
 
 #invision {
+  margin: 1rem 10% 1rem 10%;
   margin-bottom: -1rem;
+  width: 80%;
 }
 
 .usability-p {
