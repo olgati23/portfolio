@@ -2669,7 +2669,7 @@ th {
   " mmind3 mmind4 ";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  margin:1rem 10% 2.3rem 10%;
+  margin:1rem 10% 3rem 10%;
   padding: 0;
   width: 80%;
 }
