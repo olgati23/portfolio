@@ -2348,8 +2348,27 @@ th {
   }
 }
 
+/*re • mind Competitive Analysis*/
+#daylio, #headspace, #talkspace {
+  margin: .4rem 12.8% .6rem 0;
+  width:40%;
+}
+
+
+@media (min-width: 768px) {
+
+#daylio, #headspace, #talkspace {
+  margin: .4rem 12.8% .6rem 12%;
+  width:40%;
+  }
+}
+
 @media (min-width: 1025px) {
 
+#daylio, #headspace, #talkspace {
+  margin: .4rem 12.8% .6rem 21%;
+  width:40%;
+  }
 }
 
 /*re • mind User Personas*/
