@@ -444,10 +444,14 @@ ol {
   z-index: 1;
 }
 
+.test-text2, .test-text3 {
+
+}
+
 #marble4 {
   left:10%;
   position: absolute;
-  top:-110%;
+  top:-600%;
   width: 6rem;
   z-index: 2;
 }
@@ -572,8 +576,8 @@ ol {
   }
 
   #marble4 {
-    left:-25%;
-    top:-100%;
+    left:10%;
+    top:-750%;
     width: 9rem;
   }
 
@@ -581,15 +585,6 @@ ol {
 
   .testimonials {
     margin-bottom: 20%;
-  }
-
-  .test-text {
-    margin: 0 25%;
-  }
-
-  .test-text p {
-    font-size: 1.25rem;
-    line-height: 1.5;
   }
 
   #marble5 {
@@ -661,10 +656,21 @@ ol {
     line-height: 1.9rem;
   }
 
+  #marble4 {
+    left:10%;
+    top:-450%;
+    width: 9rem;
+  }
+
 /*Testimpnials*/
 
   .testimonials h3 {
     font-size: 1.95rem;
+  }
+
+  .test-text1 p, .test-text2 p, .test-text3 p {
+    font-size: 1.25rem;
+    line-height: 1.5;
   }
 
 }
