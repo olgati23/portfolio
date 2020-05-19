@@ -502,10 +502,11 @@ ul {
   justify-content: flex-start;
   align-items:flex-start;
   background: #fff;
+  padding-left: 16%;
 }
 
 .test1 {
-  padding: 1rem 1rem 0 12.8%;
+  padding: 1rem 1rem 0 0;
   border-right: .3rem solid #F6F8F5;
 }
 
@@ -524,30 +525,11 @@ ul {
   margin-bottom: .6rem;
 }
 
-@media (min-width: 768px) {
-  .quotes {
-    grid-template-columns: 0rem repeat(3, calc(50% - var(--gutter) * 2)) 0rem;
-    margin-left: 7%;
-    }
-}
-
-@media (min-width: 1025px) {
-  .quotes {
-    grid-template-columns: 0rem repeat(3, calc(31% - var(--gutter) * 2)) 0rem;
-    margin-left: 9%;
-    }
-
-    .testimonials-text {
-      height: 24.5rem;
-      margin: 3.4rem 0 3.4rem 0;
-    }
-}
-
 #marble4 {
-  left:3%;
+  left:2%;
   position: absolute;
   top:-700%;
-  width: 5rem;
+  width: 6rem;
   z-index: 2;
 }
 
@@ -564,7 +546,7 @@ ul {
 @media screen and (min-width: 768px) {
 
   .welcome {
-  margin: 0 15%;
+    margin: 0 15%;
   }
 
   .title {
@@ -682,6 +664,11 @@ ul {
     margin-bottom: 20%;
   }
 
+  .quotes {
+    grid-template-columns: 0rem repeat(3, calc(50% - var(--gutter) * 2)) 0rem;
+    margin-left: 7%;
+  }
+
   #marble5 {
     position: absolute;
     right: -7%;
@@ -763,6 +750,16 @@ ul {
   .testimonials h3 {
     font-size: 1.95rem;
   }
+
+  .quotes {
+    grid-template-columns: 0rem repeat(3, calc(31% - var(--gutter) * 2)) 0rem;
+    margin-left: 9%;
+  }
+
+    .testimonials-text {
+      height: 24.5rem;
+      margin: 3.4rem 0 3.4rem 0;
+    }
 
   .quotes p {
     font-size: 1.25rem;
