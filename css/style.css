@@ -425,18 +425,17 @@ ol {
 
 .testimonials {
   background-color: #ffffff;
-  box-shadow: .4rem .4rem 1rem #Dedede;
+  box-shadow: -.4rem .4rem 1rem #Dedede;
   padding: 3rem 0 2.3rem 0;
   width:100%;
 }
 
 .testimonials h3 {
-  margin-left: 12.8%;
-  margin-bottom: 2rem;
+  margin: 2.3rem 0 2rem 12.8%;
   font-size: 1.25rem;
 }
 
-/*Testimonials*/
+/*Testimonials Quotes*/
 
 :root {
   --gutter: 1rem;
