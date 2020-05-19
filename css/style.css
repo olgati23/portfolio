@@ -430,6 +430,11 @@ ol {
   width:100%;
 }
 
+.test-text {
+  position:relative;
+  z-index: 1;
+}
+
 .testimonials h3 {
   margin: 2.3rem 0 2rem 12.8%;
   font-size: 1.25rem;
@@ -539,10 +544,10 @@ ul {
 }
 
 #marble4 {
-  left:10%;
+  left:3%;
   position: absolute;
-  top:-600%;
-  width: 6rem;
+  top:-700%;
+  width: 5rem;
   z-index: 2;
 }
 
@@ -666,9 +671,9 @@ ul {
   }
 
   #marble4 {
-    left:10%;
-    top:-750%;
-    width: 9rem;
+    left:3%;
+    top:-700%;
+    width: 7rem;
   }
 
 /*Testimonials*/
@@ -680,8 +685,8 @@ ul {
   #marble5 {
     position: absolute;
     right: -7%;
-    top:-220%;
-    width: 13rem;
+    top:-280%;
+    width: 12rem;
   }
 
   /*Footer*/
@@ -747,10 +752,11 @@ ul {
   }
 
   #marble4 {
-    left:10%;
-    top:-450%;
+    left:2%;
+    top:-520%;
     width: 9rem;
   }
+
 
 /*Testimpnials*/
 
@@ -761,6 +767,13 @@ ul {
   .quotes p {
     font-size: 1.25rem;
     line-height: 1.5;
+  }
+
+  #marble5 {
+    position: absolute;
+    right: -7%;
+    top:-210%;
+    width: 12rem;
   }
 
 }
