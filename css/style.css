@@ -426,26 +426,117 @@ ol {
 .testimonials {
   background-color: #ffffff;
   box-shadow: .4rem .4rem 1rem #Dedede;
-  padding: 4rem 0;
-  text-align: center;
+  padding: 3rem 0 2.3rem 0;
   width:100%;
 }
 
 .testimonials h3 {
+  margin-left: 12.8%;
+  margin-bottom: 2rem;
   font-size: 1.25rem;
 }
 
-.testimonials p {
-  margin: 1.1rem 8.5%;
+/*Testimonials*/
+
+:root {
+  --gutter: 1rem;
 }
 
-.test-text {
-  position: relative;
-  z-index: 1;
+.testimonials-text {
+  padding: .6rem 0 -1rem 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: 1fr;
+  align-content: start;
 }
 
-.test-text2, .test-text3 {
+.testimonials-text  > * {
+  grid-column: 2 / -2;
+}
 
+.testimonials-text  > .full {
+  grid-column: 1 / -1;
+}
+
+.quotes {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 3);
+  grid-template-columns: 0rem repeat(3, calc(95% - var(--gutter) * 2)) 0rem;
+  grid-template-rows: minmax(10%, 1fr);
+
+  overflow-x: scroll;
+  scroll-behavior: auto;
+  margin: -1.1rem -.6rem;
+}
+
+.quotes:before, .quotes:after {
+  content: '';
+}
+
+/* Hide scrollbar */
+.hide-scroll {
+  overflow-y: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.testimonials-text {
+  width: 100%;
+  height: 12rem;
+  background: #fff;
+  overflow-y: scroll;
+  margin: 1.1rem 0 1rem 0;
+}
+
+.quotes > li {
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  background: #fff;
+}
+
+.test1 {
+  padding: 1rem 1rem 0 12.8%;
+  border-right: .3rem solid #F6F8F5;
+}
+
+.test2 {
+  padding: 1rem 1rem 0 1rem;
+  border-right: .3rem solid #F6F8F5;
+}
+
+.test3 {
+  padding: 1rem 12.8% 0 1rem;
+}
+
+.quotes p {
+  color: #333333;
+  text-align: left;
+  margin-bottom: .6rem;
+}
+
+@media (min-width: 768px) {
+  .quotes {
+    grid-template-columns: 0rem repeat(3, calc(50% - var(--gutter) * 2)) 0rem;
+    margin-left: 7%;
+    }
+}
+
+@media (min-width: 1025px) {
+  .quotes {
+    grid-template-columns: 0rem repeat(3, calc(31% - var(--gutter) * 2)) 0rem;
+    margin-left: 9%;
+    }
+
+    .testimonials-text {
+      height: 24.5rem;
+      margin: 3.4rem 0 3.4rem 0;
+    }
 }
 
 #marble4 {
@@ -668,7 +759,7 @@ ol {
     font-size: 1.95rem;
   }
 
-  .test-text1 p, .test-text2 p, .test-text3 p {
+  .quotes p {
     font-size: 1.25rem;
     line-height: 1.5;
   }
