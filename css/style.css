@@ -466,7 +466,7 @@ ol {
 .quotes {
   display: grid;
   grid-gap: calc(var(--gutter) / 3);
-  grid-template-columns: 0rem repeat(3, calc(95% - var(--gutter) * 2)) 0rem;
+  grid-template-columns: 0rem repeat(3, calc(88% - var(--gutter) * 2)) 0rem;
   grid-template-rows: minmax(13rem, 1fr);
   height:13rem;
   margin: 0;
