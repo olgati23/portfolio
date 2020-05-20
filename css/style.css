@@ -467,9 +467,8 @@ ol {
   display: grid;
   grid-gap: calc(var(--gutter) / 3);
   grid-template-columns: 0rem repeat(3, calc(88% - var(--gutter) * 2)) 0rem;
-  grid-template-rows: minmax(13rem, 1fr);
-  height:13rem;
-  margin: 0;
+  grid-template-rows: minmax(10rem, 1fr);
+  height:100%;
   overflow-x: scroll;
   padding-left: 2%;
   scroll-behavior: auto;
@@ -491,8 +490,8 @@ ul {
 
 .testimonials-text {
   background: #fff;
-  height: 13rem;
-  margin: 1.1rem 0 1rem 0;
+  height:100%;
+  margin: 1.1rem 0 1.1rem 0;
   width: 100%;
 }
 
