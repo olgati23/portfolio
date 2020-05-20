@@ -208,6 +208,7 @@ ol {
 .view-work:link, .view-work:visited {
   background-color: #5A8B23;
   border-radius: 0.36rem;
+  box-shadow: .4rem .4rem 1rem rgba(51,51,51, .2);
   color: white;
   font-family: 'Geneva', sans-serif;
   font-size: 1.25rem;
@@ -447,7 +448,7 @@ ol {
 }
 
 .testimonials-text {
-  padding: .6rem 0 -1rem 0;
+  padding: .6rem 0 0 0;
   display: grid;
   grid-gap: var(--gutter) 0;
   grid-template-columns: 1fr;
@@ -466,11 +467,12 @@ ol {
   display: grid;
   grid-gap: calc(var(--gutter) / 3);
   grid-template-columns: 0rem repeat(3, calc(95% - var(--gutter) * 2)) 0rem;
-  grid-template-rows: minmax(10%, 1fr);
+  grid-template-rows: minmax(13rem, 1fr);
+  height:13rem;
+  margin: 0;
 
   overflow-x: scroll;
   scroll-behavior: auto;
-  margin: -1.1rem -.6rem;
 }
 
 .quotes:before, .quotes:after {
@@ -488,21 +490,20 @@ ul {
 }
 
 .testimonials-text {
-  width: 100%;
-  height: 12rem;
   background: #fff;
-  overflow-y: scroll;
+  height: 13rem;
   margin: 1.1rem 0 1rem 0;
+  width: 100%;
 }
 
 .quotes > li {
-  scroll-snap-align: center;
+  align-items:flex-start;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:flex-start;
-  background: #fff;
-  padding-left: 16%;
+  padding-left: 12.8%;
+  scroll-snap-align: center;
 }
 
 .test1 {
@@ -664,9 +665,14 @@ ul {
     margin-bottom: 20%;
   }
 
+  .testimonials-text {
+    height:17rem;
+  }
+
   .quotes {
-    grid-template-columns: 0rem repeat(3, calc(50% - var(--gutter) * 2)) 0rem;
-    margin-left: 7%;
+    grid-template-columns: 3rem repeat(3, calc(50% - var(--gutter) * 2)) 3rem;
+    grid-template-rows: minmax(10rem, 1fr);
+    height:100%;
   }
 
   #marble5 {
@@ -754,10 +760,11 @@ ul {
   .quotes {
     grid-template-columns: 0rem repeat(3, calc(31% - var(--gutter) * 2)) 0rem;
     margin-left: 9%;
+    height:100%;
   }
 
     .testimonials-text {
-      height: 24.5rem;
+      height: 50%;
       margin: 3.4rem 0 3.4rem 0;
     }
 
@@ -1001,6 +1008,7 @@ ul {
 .btn a:link, .btn a:visited, .btn-p a:link, .btn-p a:visited, .contact-btn {
   background-color: #5A8B23;
   border-radius: 0.36rem;
+  box-shadow: .4rem .4rem 1rem rgba(51,51,51, .2);
   color: white;
   font-family: 'Geneva', sans-serif;
   padding: 1rem 1.7rem;
@@ -1566,6 +1574,7 @@ th {
   }
 
   .btn a:link, .btn a:visited {
+    box-shadow: .4rem .4rem 1rem rgba(51,51,51, .2);
     font-size: 1.25rem;
   }
 
