@@ -470,8 +470,8 @@ ol {
   grid-template-rows: minmax(13rem, 1fr);
   height:13rem;
   margin: 0;
-
   overflow-x: scroll;
+  padding-left: 2%;
   scroll-behavior: auto;
 }
 
@@ -502,22 +502,21 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 15%;
   scroll-snap-align: center;
 }
 
 .test1 {
-  padding: 1rem 1rem 0 0;
+  padding:  1rem 2rem 1rem 12.8%;
   border-right: .3rem solid #F6F8F5;
 }
 
 .test2 {
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 2rem;
   border-right: .3rem solid #F6F8F5;
 }
 
 .test3 {
-  padding: 1rem 12.8% 0 1rem;
+  padding: 1rem 12.8% 1rem 2rem;
 }
 
 .quotes p {
