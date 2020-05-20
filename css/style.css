@@ -502,7 +502,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 12.8%;
+  padding-left: 15%;
   scroll-snap-align: center;
 }
 
@@ -670,9 +670,10 @@ ul {
   }
 
   .quotes {
+    height:100%;
     grid-template-columns: 3rem repeat(3, calc(45% - var(--gutter) * 2)) 3rem;
     grid-template-rows: minmax(10rem, 1fr);
-    height:100%;
+    padding-left: 2%;
   }
 
   #marble5 {
@@ -759,7 +760,7 @@ ul {
 
   .quotes {
     grid-template-columns: 0rem repeat(3, calc(31% - var(--gutter) * 2)) 0rem;
-    margin-left: 9%;
+    margin-left: 7%;
     height:100%;
   }
 
