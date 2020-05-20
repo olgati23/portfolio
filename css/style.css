@@ -670,7 +670,7 @@ ul {
   }
 
   .quotes {
-    grid-template-columns: 3rem repeat(3, calc(50% - var(--gutter) * 2)) 3rem;
+    grid-template-columns: 3rem repeat(3, calc(45% - var(--gutter) * 2)) 3rem;
     grid-template-rows: minmax(10rem, 1fr);
     height:100%;
   }
