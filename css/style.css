@@ -222,17 +222,17 @@ ol {
 }
 
 #marble1 {
-  bottom: -1400%;
+  bottom: -1200%;
   height: 10rem;
   position: absolute;
-  left: 35%;
+  left: 30%;
   z-index: 2;
 }
 
 #marble2 {
   position: absolute;
-  bottom: -800%;
-  right: 5%;
+  bottom: -550%;
+  right: -3%;
   width: 8rem;
   z-index: 2;
 }
@@ -566,15 +566,15 @@ ul {
   #marble1 {
     bottom: -600%;
     height: 12rem;
-    left: 75%;
+    left: 68%;
     position: absolute;
   }
 
   #marble2 {
-    bottom: 1000%;
+    bottom: 600%;
     height: 8rem;
     position: absolute;
-    right: -10%;
+    right: -5%;
   }
 
   #downarrow {
