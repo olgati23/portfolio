@@ -2186,7 +2186,11 @@ th {
     margin: 0 0 6.8rem 0;
   }
 
-  .competitive-analysis p, .competitive-analysis h2, .competitive-analysis li {
+  .competitive-analysis h2 {
+    margin-left: 21.7%;
+  }
+
+  .competitive-analysis p, .competitive-analysis li {
     margin: .6rem 21.7% .6rem 21.7%;
   }
 
